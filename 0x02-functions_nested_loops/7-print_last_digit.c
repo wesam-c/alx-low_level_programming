@@ -8,7 +8,7 @@
 * Return: value of the last dgt
 */
 
-int print_last_dgt(int n)
+int print_last_digit(int n)
 {
 	int ld;
 
