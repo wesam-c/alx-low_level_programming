@@ -8,7 +8,7 @@
  * return: square root of x
 */
 
-doube _sqrt(double x)
+double _sqrt(double x)
 {
 	float sqrt, tmp;
 
@@ -38,7 +38,7 @@ void largest_prime_factor(long int num)
 		num = num / 2;
 
 	/* num must be odd so we proceed to next prime num (plus two)*/
-	for (prmNu = 3; prmNu <= sqrt(num); prmNu += 2)
+	for (prmNu = 3; prmNu <= _sqrt(num); prmNu += 2)
 	{
 		while (num % prmNu == 0)
 		{
