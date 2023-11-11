@@ -4,7 +4,7 @@
  * print_strings -  prints strings, followed by a new line.
  * @separator: the string separator
  * @n: The number of paramters passed to the function.
- * @...: the integers to print
+ * @...: the strings to print
  *
  * Return: void
 */
